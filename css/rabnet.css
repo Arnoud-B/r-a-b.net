@@ -1,11 +1,12 @@
 ﻿/* CSS Document */
 
 /******* GENERAL *******/
-* {font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0;}
+* {font-family: "Source Sans 3", "Source Sans", Arial, Helvetica, sans-serif; margin: 0; padding: 0;}
 html, body {height: 100%;}
 a {color: #91bfe3; text-decoration: none;}
 a:hover {text-decoration: underline;}
 a[rel=pdf] {background: transparent url(../images/icon_pdf.png) no-repeat right center;	padding-right: 27px;}
+p.name {color: #0f4492;}
 img {border: none;}
 
 #container {height: 100%;}
