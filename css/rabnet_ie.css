@@ -1,0 +1,6 @@
+/* CSS Document */
+
+#bottom p,
+#bottom #footer {filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30); width: 100%;}
+#bottom p:hover,
+#bottom #footer:hover {filter: progid:DXImageTransform.Microsoft.Alpha(opacity=99); width: 100%;}

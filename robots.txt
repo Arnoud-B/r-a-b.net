@@ -1,0 +1,18 @@
+User-agent: *
+Disallow: *.pdf
+Disallow: /r-a-b/v4/
+Disallow: /r-a-b/temp/
+Disallow: /r-a-b/_cube/
+
+User-agent: googlebot
+Disallow: *.csi
+Disallow: *.pdf
+Disallow: /r-a-b/v4/
+Disallow: /r-a-b/temp/
+Disallow: /r-a-b/_cube/
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /

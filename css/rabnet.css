@@ -1,0 +1,36 @@
+﻿/* CSS Document */
+
+/******* GENERAL *******/
+* {font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0;}
+html, body {height: 100%;}
+a {color: #91bfe3; text-decoration: none;}
+a:hover {text-decoration: underline;}
+a[rel=pdf] {background: transparent url(../images/icon_pdf.png) no-repeat right center;	padding-right: 27px;}
+img {border: none;}
+
+#container {height: 100%;}
+#top {background: white; height: 40%;}
+
+/******* MIDDLE *******/
+#middle {background: #0d327b url(../images/bg_gradient.png) repeat-x; color: white; height: 60%; position: relative;}
+#middle .content {position: absolute; top: -42px; width: 100%;}
+#middle .txtblock {font-size: .8em; margin: auto; position: relative; text-align: right; width: 25em;}
+#middle .txtblock .fn {font-size: 1.4em; line-height: 35px; margin-bottom: 1em;}
+#middle .txtblock .fn a {color: #0f4492;}
+#middle .txtblock .fn a:hover {text-decoration: none;}
+#middle .txtblock .fn .logo {left: 0; position: absolute; top: 0;}
+#middle .txtblock .title {margin-top: 25px;}
+#middle .txtblock .info {left: 0; position: absolute; top: 10em; width: 100%;}
+#middle .txtblock .info ul.cv {float: left; text-align: left;}
+/* #middle .txtblock .info ul.contact {position: absolute; right: 0; text-align: left;} */
+#middle .txtblock .info li {list-style: none;}
+#middle .txtblock .info ul.cv li li {background: url(../images/arrow_whiter.gif) no-repeat 0 6px; padding-left: 7px;}
+#middle .txtblock .info ul.contact li li {background: url(../images/arrow_whitel.gif) no-repeat right 6px; padding-right: 7px;}
+#middle .txtblock .info p {margin-top: 1em;}
+
+/******* FOOTER *******/
+#bottom {bottom: 1em; color: white; font-size: .8em; position: absolute; text-align: center; width: 100%;}
+#bottom p {margin-bottom: 1.5em; opacity: .3;}
+#bottom #footer {font-size: .8em; opacity: .3;}
+#bottom p:hover,
+#bottom #footer:hover {opacity: 1;}
